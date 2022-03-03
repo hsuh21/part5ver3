@@ -3,13 +3,20 @@ body{
     word-break: break-all;
 }
 
-p,b{
+p{
     font-family: baskerville-urw, serif;
     font-weight: 500;
     font-style: normal;
     font-size: .75 em;
     margin: 0;
-    display: inline;
+}
+b{
+    font-family: baskerville-urw, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: .75 em;
+    margin: 0;
+    opacity: 0;
 }
 
 a:link{
@@ -22,10 +29,8 @@ a:visited{
     color: black;
 }
 b:hover {
-    background-color: aqua;
+    opacity: 1;
 }
-::-webkit-scrollbar {
-    display: none;
-}
+
 
 
